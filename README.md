@@ -7,5 +7,4 @@ Installation:
 
 Use console command `make` or `npx ts-node src` for start an application.
 
-Config at **.env** file,\
-Invite config in **src/index.ts** file
+Config in **src/index.ts** file
