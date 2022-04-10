@@ -8,7 +8,6 @@ const inviteMaxLength: number = 10;
 const repeatSymbolCount: number = 2;
 const repeatEachSymbolCount: number = 3;
 
-
 let guild: Guild;
 
 import {Client, Guild, Invite} from "discord.js";
