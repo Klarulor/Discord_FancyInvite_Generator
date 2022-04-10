@@ -1,12 +1,19 @@
-//CONFIG
-import {isDataView} from "util/types";
 require('dotenv').config();
+
+
+
+
 const token: string = process.env.TOKEN ?? "<TOKEN>>";
 const guildId: string = process.env.GUILD ?? "<GuildID>>";
 const channelID: string = process.env.CHANNEL ?? "<ChannelID>>";
 const inviteMaxLength: number = 10;
 const repeatSymbolCount: number = 1;
 const repeatEachSymbolCount: number = 5;
+
+
+
+
+
 
 let guild: Guild;
 
