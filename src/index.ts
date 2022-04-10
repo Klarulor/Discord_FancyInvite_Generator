@@ -1,16 +1,26 @@
 require('dotenv').config();
 
 
-
-
 const token: string = process.env.TOKEN ?? "<TOKEN>>";
 const guildId: string = process.env.GUILD ?? "<GuildID>>";
 const channelID: string = process.env.CHANNEL ?? "<ChannelID>>";
 const repeatSymbolCount: number = 1;
-const repeatEachSymbolCount: number = 4;
+const repeatEachSymbolCount: number = 3;
 const needInvites: number = 999;
 const needSaveFancyInvite: boolean = true;
 const totalRepeat: number = 5;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
