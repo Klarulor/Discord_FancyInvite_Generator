@@ -5,7 +5,7 @@ const token: string = process.env.TOKEN ?? "<TOKEN>>";
 const guildId: string = process.env.GUILD ?? "<GuildID>>";
 const channelID: string = process.env.CHANNEL ?? "<ChannelID>>";
 const repeatSymbolCount: number = 1;
-const repeatEachSymbolCount: number = 3;
+const repeatEachSymbolCount: number = 4;
 const needInvites: number = 999;
 const needSaveFancyInvite: boolean = true;
 const totalRepeat: number = 5;
@@ -67,7 +67,7 @@ function startCycle(){
             }
 
         }
-    }, 4000);
+    }, 3700);
 }
 function checkCode(code: string): ICheckingResponse{
     const response: ICheckingResponse = {
